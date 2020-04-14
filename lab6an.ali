@@ -1,0 +1,153 @@
+V "GNAT Lib v4.8"
+M P W=b
+P SS ZX
+
+RN
+RV NO_DIRECT_BOOLEAN_OPERATORS
+RV NO_EXCEPTIONS
+RV NO_IO
+RV NO_IMPLICIT_CONDITIONALS
+RV NO_IMPLICIT_LOOPS
+RV NO_SECONDARY_STACK
+RV NO_STANDARD_STORAGE_POOLS
+RV NO_UNCHECKED_ACCESS
+RV NO_DEFAULT_INITIALIZATION
+RV NO_IMPLEMENTATION_ATTRIBUTES
+RV NO_IMPLEMENTATION_PRAGMAS
+RV SPARK
+
+U lab6an%b		lab6an.adb		6bc9ba5d NE OO SU IL
+W ada%s			ada.ads			ada.ali
+W ada.exceptions%s	a-except.adb		a-except.ali
+W ada.integer_text_io%s	a-inteio.ads		a-inteio.ali
+Z ada.io_exceptions%s	a-ioexce.ads		a-ioexce.ali
+W ada.sequential_io%s
+W ada.tags%s		a-tags.adb		a-tags.ali
+W ada.text_io%s		a-textio.adb		a-textio.ali
+Z ada.unchecked_conversion%s
+Z interfaces%s		interfac.ads		interfac.ali
+Z interfaces.c_streams%s  i-cstrea.adb		i-cstrea.ali
+W system%s		system.ads		system.ali
+Z system.crtl%s		s-crtl.ads		s-crtl.ali
+W system.exception_table%s  s-exctab.adb	s-exctab.ali
+Z system.file_control_block%s  s-ficobl.ads	s-ficobl.ali
+Z system.file_io%s	s-fileio.adb		s-fileio.ali
+W system.img_int%s	s-imgint.adb		s-imgint.ali
+W system.secondary_stack%s  s-secsta.adb	s-secsta.ali
+Z system.sequential_io%s  s-sequio.adb		s-sequio.ali
+W system.standard_library%s  s-stalib.adb	s-stalib.ali
+Z system.storage_elements%s  s-stoele.adb	s-stoele.ali
+W system.unsigned_types%s  s-unstyp.ads		s-unstyp.ali
+
+D ada.ads		20070406091342 3ffc8e18
+D a-except.ads		20120716125141 10fcae55
+D a-finali.ads		20111121113555 52ecdc1b
+D a-inteio.ads		20070406091342 f64b89a4
+D a-ioexce.ads		20091130110856 8b9de6cd
+D a-sequio.ads		20090409150019 7b5d9d38
+D a-sequio.adb		20121001094122 f458c90c
+D a-stream.ads		20090409150019 2ca4ee37
+D a-tags.ads		20111212115430 6c0509d0
+D a-textio.ads		20130104124955 386df5d4
+D a-tiinio.ads		20090409150019 aa04e5d6
+D a-unccon.ads		20070406091342 f9eb8f06
+D interfac.ads		20110906094621 129923ea
+D i-cstrea.ads		20130102105938 3286f6aa
+D lab6an.adb		20181130111221 deb25b15
+D system.ads		20140416144310 90249111
+D s-crtl.ads		20130102105938 1ea48bce
+D s-exctab.ads		20090417131547 66e51330
+D s-ficobl.ads		20120709130952 55a71d43
+D s-fileio.ads		20120709130952 45ce2f0f
+D s-finmas.ads		20111024091915 b95bb341
+D s-finroo.ads		20120426095924 4ff27390
+D s-imgint.ads		20090409150019 02dbe0c2
+D s-parame.ads		20110830140625 b6e20cc0
+D s-pooglo.ads		20110804083314 542f33d0
+D s-secsta.ads		20110830140625 eea35a36
+D s-sequio.ads		20090409150019 fc7560a7
+D s-soflin.ads		20120515094619 24c8153c
+D s-stache.ads		20090417130712 596fc1b4
+D s-stalib.ads		20130104124955 f78bcf95
+D s-stoele.ads		20090417130712 facd7d98
+D s-stoele.adb		20100617152355 afc5dc80
+D s-stopoo.ads		20111013103733 7b8fbeee
+D s-traent.ads		20090417130712 5221ee41
+D s-unstyp.ads		20090409150019 6ae15c76
+D s-wchcon.ads		20090417130712 bfeb2e3d
+X 1 ada.ads
+16K9*Ada 19e8 15|1r6 1r23 2r6 2r31 3r6 26r14 70r24 96r25 156r12
+X 4 a-inteio.ads
+18K13*Integer_Text_IO[11|45] 15|2w10 2r35
+X 6 a-sequio.ads
+43k13*Sequential_IO 158e22 15|3w10 26r18
+53P9 File_Type(27|43R9) 15|155r21[25]
+55E9 File_Mode
+55n23 In_File{55E9[15|25]} 15|162r25[25]
+76U14 Open 15|162s15[25]
+82U14 Close 15|179s15[25]
+97U14 Read 15|170s18[25]
+100V13 End_Of_File{boolean} 15|169s14[25]
+X 10 a-textio.ads
+49K13*Text_IO 471e16 15|1w10 1r27 70r28 96r29 156r16
+52P9*File_Type(369R9) 15|70r36 96r37 156r24
+53n32*Out_File{53E9} 15|163r19
+86U14*Create 15|163s4
+98U14*Close 15|180s4
+165U14*New_Line 15|100s4 102s4 116s4
+241U14*Put 15|101s4 103s4 104s4 105s4 106s4 107s4 108s4 109s4 110s4 111s4
+. 113s7
+242U14*Put 15|165s4 177s4
+X 11 a-tiinio.ads
+55U14*Get 15|55s7[4|18]
+59U14*Put 15|75s7[4|18]
+X 15 lab6an.adb
+6U11*lab6an 6b11 182l5 182t11
+10A9 I_Array_Type(integer)<integer> 22r21 29r46 44r25 46r12 70r56 120r36
+. 130r52 158r10
+13X4 Nummer_Error 58r16
+15R12 Person_Type 23e17 26r32 96r59 130r28 130r73 132r12 157r18
+17a10 Efternamn{string} 105r28
+18a10 Fornamn{string} 103r28
+19a10 Gatuadress{string} 107r28
+20a10 Postadress{string}
+21i10 Antal{integer} 112r23 139r23 148m11 172r22
+22a10 Intressen{10A9} 113r45 138m23 141r18 143m20 143r46
+25K15 Person_Bin[6|43] 27r11 155r10 162r4 170r7 179r4
+29V10 Contains{boolean} 29b10 29>19 29>37 41l8 41t16 59s17
+29i19 Item{integer} 34r13
+29a37 List{10A9} 34r20
+33i11 I{integer} 34r25
+44U11 Get 44b11 44<15 67l5 67t8 167s4
+44a15 Item{10A9} 65m4
+46a4 I_Temp{10A9} 52m2 59r34 61m10 65r12
+47i4 Nummer{integer} 55m11 56r18 57r11 57r29 59r26 61r28
+48i4 Length{integer} 56r34 60m10 60r20 61r17
+70U11 Put 70b11 70>15 70>47 78l5 78t8
+70p15 File{10|52P9} 75r11
+70a47 Item{10A9} 75r17
+74i8 I{integer} 75r22
+81V10 Remove{string} 81b10 81>17 93l5 93t11 103s14 105s14 107s14 109s14 111s14
+. 113s17
+81s17 S{string} 85r21 85r30 86r10 87r17 87r19 91r11
+85i8 I{integer} 86r12 87r28
+96U11 Put 96b11 96>16 96>48 118l5 118t8 173s10
+96p16 File{10|52P9} 100r13 101r8 102r13 103r8 104r8 105r8 106r8 107r8 108r8
+. 109r8 110r8 111r8 113r11 116r13
+96r48 Person{15R12} 103r21 105r21 107r21 112r16 113r38
+112i8 I{integer} 113r55
+120U11 Empty_Array 120b11 120=23 128l5 128t16 138s4
+120a23 Item{10A9} 125m7
+124i8 I{integer} 125r12
+130V10 Compare{15R12} 130b10 130>18 130>41 151l5 151t12 171s22
+130r18 Left{15R12} 137r14 141r13 143r41
+130a41 Right{10A9} 141r33 141r46
+132r4 Person{15R12} 137m4 138m16 138r16 139r16 143m13 148m4 149r11
+133i4 Length{integer} 142m13 142r23 143r30 148r20
+139i8 I{integer} 141r28 143r56
+140i11 N{integer} 141r39 141r52
+155p4 Reg{6|53P9[25]} 162m20 162r20 169r26 170r23 179m21 179r21
+156p4 Output{10|52P9} 163m11 163r11 173r14 180m10 180r10
+157r4 Person_Data{15R12} 170m28 171m7 171r30 172r10 173r22
+158a4 IAT{10A9} 167m8 171r43
+
